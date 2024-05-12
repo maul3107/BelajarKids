@@ -19,7 +19,7 @@
        * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
        */
 
-      var quiztitle = "Matematika";
+      var quiztitle = "Bahasa Indonesia";
 
       /**
        * Set the information about your questions here. The correct answer string needs to match
@@ -28,45 +28,45 @@
        */
       var quiz = [
         {
-          question: "1. Who came up with the theory of relativity?",
-          image:
-            "http://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/220px-Albert_Einstein_Head.jpg",
-          choices: [
-            "Sir Isaac Newton",
-            "Nicolaus Copernicus",
-            "Albert Einstein",
-            "Ralph Waldo Emmerson",
-          ],
-          correct: "Albert Einstein",
+          question: "1. Petok..Petok... adalah suara hewan...",
+          choices: ["Monyet", "Ayam", "Itik", "Kambing"],
+          correct: "Ayam",
           explanation:
-            "Albert Einstein drafted the special theory of relativity in 1905.",
+            "Ayam adalah jenis burung yang umumnya dipelihara untuk daging dan telurnya.",
         },
         {
-          question: "Q2: Who is on the two dollar bill?",
-          image:
-            "http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/US_%242_obverse-high.jpg/320px-US_%242_obverse-high.jpg",
+          question: "2. Aku mendengar dengan.... dan melihat dengan...",
           choices: [
-            "Thomas Jefferson",
-            "Dwight D. Eisenhower",
-            "Benjamin Franklin",
-            "Abraham Lincoln",
+            "Telinga dan mata",
+            "Mata dan telinga",
+            "Mata dan mulut",
+            "Telinga dan hidung",
           ],
-          correct: "Thomas Jefferson",
+          correct: "Telinga dan mata",
           explanation:
-            "The two dollar bill is seldom seen in circulation. As a result, some businesses are confused when presented with the note.",
+            "Telinga dan mata adalah ungkapan yang merujuk kepada informasi atau pengetahuan yang dipahami atau diingat dengan cepat dan mudah.",
         },
         {
-          question: "Q3: What event began on April 12, 1861?",
-          image: "",
-          choices: [
-            "First manned flight",
-            "California became a state",
-            "American Civil War began",
-            "Declaration of Independence",
-          ],
-          correct: "American Civil War began",
+          question: "3.Dimana habitat hewan dibawah!",
+          image: "kakek-didenda-karena-ayam-berkokok.jpeg",
+          choices: ["Darat", "Air", "Udara", "Kolam"],
+          correct: "Darat",
           explanation:
-            "South Carolina came under attack when Confederate soldiers attacked Fort Sumter. The war lasted until April 9th 1865.",
+            "Ayam adalah jenis burung yang biasanya tinggal di darat, seringkali di kandang atau di area yang aman dari predator.",
+        },
+        {
+          question: "4.Hewan apa yang bertelur",
+          choices: ["Sapi", "Ayam", "Paus", "Singa"],
+          correct: "Ayam",
+          explanation:
+            "Ayam adalah jenis burung yang umumnya dipelihara untuk daging dan telurnya.",
+        },
+        {
+          question: "5.! disebut tanda..",
+          choices: ["Tanya", "Seru", "Titik", "Koma"],
+          correct: "Seru",
+          explanation:
+            "Tanda seru (!) digunakan untuk mengekspresikan perasaan kagum, kegembiraan, kejutan, atau pentingnya suatu informasi dalam teks tertulis.",
         },
       ];
 
@@ -332,7 +332,12 @@
         display: block;
       }
       body {
-        line-height: 1;
+        align-items: center;
+        background-image: url(pngtree-general-background-of-children-s-day-image_946412.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
         font: normal 0.9em/1em "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
       ol,
@@ -386,10 +391,10 @@
         padding: 0;
       }
       #submitbutton {
-        background: #a06b1c;
+        background: #0e665f;
       }
       #submitbutton:hover {
-        background: #553d23;
+        background: #289277;
       }
       #explanation {
         margin: 0 auto;
